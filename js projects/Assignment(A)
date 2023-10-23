@@ -1,0 +1,8 @@
+var string = "my love is coding";
+
+var reverseallstrings = reverseWord(string,"");
+console.log(reverseallstrings);
+
+function reverseWord(string,separator){
+    return string.split(separator).reverse().join(separator);
+}

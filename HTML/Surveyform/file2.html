@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>
+        Build a Survey Form using HTML and CSS
+    </title>
+    <link rel="stylesheet" href="style2.css">
+ 
+    
+</head>
+  
+<body>
+    <h1>Recurement Survey Form</h1>
+  
+    <!-- Create Form -->
+    <form id="form">
+ 
+        <!-- Details -->
+        <div class="form-control">
+            <label for="firstName" id="label-name">
+                firstName
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="name"
+                   placeholder="Enter your FirstName" />
+        </div>
+
+        <div class="form-control">
+            <label for="LasttName" id="label-name">
+                LastName
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="name"
+                   placeholder="Enter your LastName" />
+        </div>
+  
+        <div class="form-control">
+            <label for="email" id="label-email">
+                Email
+            </label>
+ 
+            <!-- Input Type Email-->
+            <input type="email"
+                   id="email"
+                   placeholder="Enter your email" />
+        </div>
+
+        <div class="form-control">
+            <label for="Mobile" id="label-Mobile">
+                Mobile
+            </label>
+ 
+            <!-- Input Type Email-->
+            <input type="Numaricals"
+                   id="Mobile"
+                   placeholder="Enter your number" />
+        </div>
+  
+        <div class="form-control">
+            <label for="DOB" id="label-DOB">
+                DOB
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="DOB"
+                   placeholder="Enter your DOB" />
+        </div>
+
+        <div class="form-control">
+            <label for="role" id="label-role">
+                Country
+            </label>
+             
+            <!-- Dropdown options -->
+            <select name="role" id="role">
+                <option value="select option">select option</option>
+                <option value="India">India</option>
+                <option value="China">China</option>
+                <option value="OTHER">OTHER</option>
+            </select>
+        </div>
+
+        <div class="form-control">
+            <label>
+                Gender
+            </label>
+ 
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       name="recommed">Male</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">Female</input>
+            </label>
+            <label for="recommed-3">
+                <input type="radio"
+                       id="recommed-3"
+                       name="recommed">Not to Say</input>
+            </label>
+        </div>
+        
+
+        <div class="form-control">
+            <label for="role" id="label-role">
+                Qualification
+            </label>
+             
+            <!-- Dropdown options -->
+            <select name="role" id="role">
+                <option vlaue="select option">select option</option>
+                <option value="SSLC">SSLC</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Graduation">
+                    Graduation
+                </option>
+                <option value="Post Graduation">Post Graduation</option>
+            </select>
+        </div>
+
+        <div class="form-control">
+            <label for="role" id="label-role">
+                Degree
+            </label>
+             
+            <!-- Dropdown options -->
+            <select name="role" id="role">
+                <option vlaue="select option">select option</option>
+                <option value="B.A">B.A</option>
+                <option value="B.Sc">B.Sc</option>
+                <option value="B.Com">B.Com</option>
+                <option value="B.tech/B.E">B.Tech/B.E</option>
+                <option value="M.A">M.A</option>
+                <option value="M.S">M.S</option>
+                <option value="M.Com">M.Com</option>
+                <option value="M.tech">M.Tech</option>
+                <option value="other">other</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <label for="role" id="label-role">
+                Profession
+            </label>
+             
+            <!-- Dropdown options -->
+            <select name="role" id="role">
+                <option vlaue="select option">select option</option>
+                <option value="Student">Student</option>
+                <option value="Intern">Intern</option>
+                <option value="Job holder">
+                    Job holder
+                </option>
+            </select>
+        </div>
+  
+        <div class="form-control">
+            <label>Skills
+                <small>(Check all that apply)</small>
+            </label>
+            <!-- Input Type Checkbox -->
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">C</input></label>
+            <label for="inp-2">
+                <input type="checkbox"
+                       name="inp">C++</input></label>
+            <label for="inp-3">
+                <input type="checkbox"
+                       name="inp">C#</input></label>
+            <label for="inp-4">
+                <input type="checkbox"
+                       name="inp">Java</input></label>
+            <label for="inp-5">
+                <input type="checkbox"
+                       name="inp">Python</input></label>
+            <label for="inp-6">
+                <input type="checkbox"
+                       name="inp">JavaScript</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">React</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">Angular</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">Django</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">Spring</input></label>
+        </div>
+  
+        <div class="form-control">
+            <label for="comment">
+                Any comments or suggestions
+            </label>
+ 
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment"
+                placeholder="Enter your comment here">
+            </textarea>
+        </div>
+  
+        <!-- Multi-line Text Input Control -->
+        <button type="submit" value="submit">
+            Submit
+        </button>
+
+        <button type="Reset" value="Reset">
+            Reset
+        </button>
+    </form>
+    <script type="text/javascript" src="script2.js"></script>
+</body>
+</html>
